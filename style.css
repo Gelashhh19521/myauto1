@@ -1090,6 +1090,7 @@ nav ul.mobile-hidden {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
     gap: 20px;
+    padding-top: 80px;
 }
 
 
@@ -1323,8 +1324,7 @@ nav ul.mobile-hidden {
 .logo span {
     padding: 6px 12px;
     border-radius: 20px;
-    border: 2px solid #ff5a00;
-    color: #333;
+    color: #ffffff;
     font-weight: bold;
 }
 
@@ -1415,7 +1415,12 @@ nav ul.mobile-hidden {
     font-size: 13px;
     color: #777;
 }
-
+.footer h2{
+    color: black;
+}
+footer hr{
+    border: 1px solid black;
+}
 .footer span {
     display: block;
     font-weight: bold;
